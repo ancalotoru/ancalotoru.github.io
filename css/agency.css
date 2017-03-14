@@ -892,8 +892,18 @@ ul.social-buttons li a:active {
 
 /*dropdown*/
 section#study {
-  background-color: #9fde7a;
+  background-color: #f8f8f8;
   display:none;
+}
+
+section#work {
+  background-color: #f8f8f8;
+  display: none;
+}
+
+section#research {
+  background-color: #f8f8f8;
+  display: none;
 }
 /* end dropdown */
 
@@ -917,7 +927,7 @@ body {
 
 
 
-/* Timeline */
+/* Timeline 
 .timeline,
 .timeline-horizontal {
   list-style: none;
@@ -1088,3 +1098,4 @@ body {
   bottom: 0px;
   left: 43px;
 }
+*/

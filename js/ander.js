@@ -1,7 +1,5 @@
-$('.about-dropdown-btn').on('click', function(){
-	$('#study', '#work', '#research').hide('slow');
-});
-
-$('.about-dropdown-btn').on('click', function(){
-	$('#study').show('slow');
+$(document).ready(function(){
+	$('.about-dropdown-btn').on('click', function(e){
+		$('#study').show('slow');
+	});
 });
