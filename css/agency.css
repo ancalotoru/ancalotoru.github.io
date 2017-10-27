@@ -101,15 +101,17 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  /*background-color: #fed136;
+  border-color: #fed136;*/
+  background-color: #ae6719cc;
+  border-color: #3e2f1ab3;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
-}
+ }
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -236,6 +238,9 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  height: 100vh;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.5px #31210a;
 }
 header .intro-text {
   padding-top: 100px;
@@ -279,6 +284,9 @@ header .intro-text .intro-heading {
 }
 section {
   padding: 40px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -296,6 +304,9 @@ section h3.section-subheading {
 @media (min-width: 768px) {
   section {
     padding: 50px 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
   }
 }
 .service-heading {
