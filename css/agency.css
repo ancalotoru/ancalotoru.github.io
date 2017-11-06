@@ -95,6 +95,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #fed136;
   border-color: #fed136;
 }
+
 .btn-primary .badge {
   color: #fed136;
   background-color: white;
@@ -284,7 +285,6 @@ header .intro-text .intro-heading {
 }
 section {
   padding: 40px 0;
-  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -304,7 +304,6 @@ section h3.section-subheading {
 @media (min-width: 768px) {
   section {
     padding: 50px 0;
-	height: 100vh;
 	display: flex;
 	align-items: center;
   }
@@ -450,6 +449,15 @@ section h3.section-subheading {
 }
 #about * {
   z-index: 2;
+}
+#about .container #resto > p{
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+#about .container #resto .contacto-about > a{
+  color: #333;
 }
 
 @media (min-width: 767px) {
