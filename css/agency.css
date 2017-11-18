@@ -485,13 +485,14 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
+  background-color: #eee;
+  /*background-color: #222222;
   background-image: url('../img/map-image.png');
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 section#contact .section-heading {
-  color: white;
+  /*color: white;*/
 }
 section#contact .form-group {
   margin-bottom: 25px;
@@ -538,11 +539,69 @@ section#contact :-ms-input-placeholder {
   /*color: #eeeeee;*/
   color: darkgrey;
 }
+section#contact .about-item .about-link .text-primary{
+  color: #666699;
+}
 section#contact .text-danger {
   color: #e74c3c;
 }
+
+section#contact .about-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+section#contact .about-item a {
+  color: white;
+}
+section#contact .about-item .about-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  color: none;
+}
+section#contact .about-item .about-link .about-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+section#contact .about-item .about-hover .about-hover-content .about-link a i:hover{
+  color: black;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  opacity: 0.8;
+}
+section#contact .about-item .about-link .about-hover:hover {
+  opacity: 1;
+}
+section#contact .about-item .about-link .about-hover .about-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+section#contact .about-item .about-link .about-hover .about-hover-content i {
+  margin-top: -12px;
+}
+section#contact .about-item .about-link .about-hover .about-hover-content h3,
+section#contact .about-item .about-link .about-hover .about-hover-content h4 {
+  margin: 0;
+}
+
+
 footer {
-  padding: 25px 0;
+  background-color: black;
+  border-radius: 2 2 2 2px;
+  /*padding: 25px 0;*/
   text-align: center;
 }
 footer span.copyright {
@@ -550,6 +609,7 @@ footer span.copyright {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color: #bda4a4;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
