@@ -200,6 +200,9 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #fec503;
 }
+#mainNav-publications .navbar-custom .nav li a {
+  color:black;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
