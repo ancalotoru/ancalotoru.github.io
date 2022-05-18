@@ -845,3 +845,9 @@ body {
 .programming-dropdown > i {
 	padding-left: 2px;
 }
+
+.fixed-ratio-resize {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
