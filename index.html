@@ -4,7 +4,7 @@
 <head>
 	<title>Ander Carreño López - Data Science Bilbao</title>
 
-	<meta name="description" content="Data Science Bilbao - Machine Learning - Research Artificial Intelligence - Ander Carreño"/>
+	<meta name="description" content="Data Science Bilbao - Machine Learning - Research Artificial Intelligence - Ander Carreño Ph.D."/>
 	<!-- <meta name="robots" content="noodp"/> -->
 	<link rel="canonical" href="https://ancalotoru.github.io/" />
 	<link rel="publisher" href="https://plus.google.com/ancalotoru"/>
@@ -109,7 +109,7 @@
 			<div class="intro-text">
 				<div class="intro-lead-in">Nice to meet you</div>
 				<div class="col-lg-12 col-md-10">
-					<h1 class="intro-heading">Data Science Researcher</h1>
+					<h1 class="intro-heading">Data Scientist</h1>
 				</div>
 				<a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
 			</div>
@@ -148,7 +148,7 @@
 						<i class="fa fa-eercast fa-stack-1x fa-inverse"></i>
 					</span>
 					<h4 class="service-heading">Data Stream Classification</h4>
-					<p class="text-muted">Managing the evergrowing data streams in the era of IoT.</p>
+					<p class="text-muted">Managing the evergrowing data streams.</p>
 				</div>
 			</div>
 		</div>
@@ -166,6 +166,22 @@
 			<div class="row">
 				<!-- Item -->
 				<div class="col-md-4 col-sm-6 portfolio-item">
+					<a href="#portfolioModalThesis" class="portfolio-link" data-toggle="modal">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content">
+								<i class="fa fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/portfolio/Thesis.pdf" class="img-responsive" alt="Advances in Streaming Novelty Detection">
+					</a>
+					<div class="portfolio-caption">
+						<h4>Advances in Streaming Novelty Detection</h4>
+						<p class="text-muted">Defended in October 2022</p>
+					</div>
+				</div>
+				<!-- End Item -->
+				<!-- Item -->
+				<div class="col-md-4 col-sm-6 portfolio-item">
 					<a href="#portfolioModalSNDProb" class="portfolio-link" data-toggle="modal">
 						<div class="portfolio-hover">
 							<div class="portfolio-hover-content">
@@ -176,7 +192,7 @@
 					</a>
 					<div class="portfolio-caption">
 						<h4>SNDProb</h4>
-						<p class="text-muted">Published in TKDE 2022.</p>
+						<p class="text-muted">Published in TKDE 2022</p>
 					</div>
 				</div>
 				<!-- End Item -->
@@ -633,7 +649,49 @@
 
 	<!-- Portfolio Modals -->
 	<!-- Use the modals below to showcase details about your portfolio projects! -->
+	<!-- Portfolio Modal Thesis -->
+	<div class="portfolio-modal modal fade" id="portfolioModalThesis" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2>Advances in Streaming Novelty Detection</h2>
+								<p class="item-intro text-muted">Defended in October 2022</p>
+								<img class="img-responsive img-centered" src="img/portfolio/SNDProb.gif" alt="">
+								<p></p>
+								<p>
+									<strong>Abstract:</strong>
+									<p class="text-justify">Due to the massive growth of machie learning applications motivated by the outstanding results obtained in a wide variety of areas that range from medicine, biology and economics to engineering and physics, new challenging problems have been encountered in recent years. In this dissertation, a humble contribution to the Streaming Novelty Detection (SND) literature is proposed. Firstly, by giving a taxonomy of terms to learning scenarios that tries to give a short step into the standardization of the field. Secondly, two methodological contributions to the SND problem are given. In a nutshell, SND referes to the problem where new classes can emerge in an unsupervised manner throughout a stream. As a first methodological contribution, a probabilistic framework that is based on a mixture of Gaussian distributions is proposed, where also an in-depth revision of the evaluation methodology is performed. As a second contribution, a method that deals with time series data is proposed. It uses deep autoencoders and deep Support Vector Data Description networks as main actors to deal with the SND problem.</p>
+								<ul class="list-inline">
+									<li><b>Link to the dissertation: </b><a href="resources/AdvancesStreamingNoveltyDetection.pdf">Advances in Streaming Novelty Detection</a></li>
+									<li><b>Defence presentation: </b><a href="resources/AdvancesStreamingNoveltyDetection.pptx"> Presentation of Advances in Streaming Novelty Detection</a></li>
+								</ul>
+								<div class="alert alert-primary" role="alert">
+									<blockquote class="blockquote">
+										<p class="text-justify">For citing, please use the following:</p>
+										<p class="text-left">
+											A. Carreno, (2022). "Advances in Streaming Novelty Detection [Doctoral dissertation, University of the Basque Country (UPV/EHU)]"
+										</p>
+									</blockquote>
 
+								</div>
+								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- Portfolio Modal SNDProb -->
 	<div class="portfolio-modal modal fade" id="portfolioModalSNDProb" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
@@ -829,8 +887,8 @@
 	</div>
 
 	<!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script   src="https://code.jquery.com/jquery-3.6.1.min.js"   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="   crossorigin="anonymous"></script>
     <!-- Scroll Reveal plugin-->
 	<script type='text/javascript' src="js/Scroll-Reveal/scrollreveal.js"></script>
 
